@@ -1,10 +1,11 @@
-import React from "react"
-
-function App() {
+import React from "react";
+const App = ()=>{
+    console.log("hii");
     return (
-    <div id="main">
-        <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
-    </div>)  
+         
+        <div id="main">
+            <p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+        </div>
+    )
 }
-
-export App default;
+export default App;
